@@ -1,18 +1,12 @@
 @extends('layouts.app')
-
-@section('content')
-
-<div>
-   @include('navbar.nav')     
-</div>
-
-    <main class="py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-8">
-                    Dashboard
+@section('section', 'Homepage')
+@section('content') 
+        <div class="container">
+            <!--End Header Comment-->
+            <div class="row gx-0">
+                <div class="col-md-6">
+                    <div> {{ Auth::user()->email }} </div>
                 </div>
             </div>
         </div>
-    </main>
 @endsection

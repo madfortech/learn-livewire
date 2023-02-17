@@ -1,0 +1,83 @@
+body{
+    font-family:'Source Code Pro',
+    monospace;
+    margin:0;
+    padding:0;
+    background:#ffffea!important;
+    font-weight:400;
+}
+.navbar{
+    background:#4d3291;
+    border-style:none;
+}
+nav .navbar-nav li a{
+    color:#bbb!important;
+    font-weight:500;
+    text-transform:capitalize;
+}
+.navbar-brand{
+    font-weight:600;
+    color: #bbb !important;
+    letter-spacing:.1rem;
+    text-transform:capitalize;
+}
+.navbar-toggler{
+    border-style:none;
+    border-radius:0;
+}
+.dropdown-menu{
+    border:none;
+    border-radius:0;
+}
+.main,header{
+    padding:5rem 0;
+}
+.page-heading{
+    font-weight:900;
+    text-transform:capitalize;
+    font-size:36px;
+}
+.btn{
+    background:linear-gradient(#4d3291 0,#362367 100%);
+    color:#bbb!important;
+    font-weight:600;
+    text-transform:uppercase;
+    border-width:0;
+    border-style:none;
+    border-radius:13px;
+}
+
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=text]{
+    border-radius:14px;
+    border-width:5px;
+    border-style:solid;
+}
+input[type=email],
+input[type=password],
+input[type=search]:focus,
+input[type=search]:hover,
+input[type=text]{
+    border-style:solid;
+    border-radius:14px;
+}
+.music-wrp{
+    border-style:solid;
+    margin-top:30px;
+}
+.music-wrp h3{
+    text-transform:capitalize;
+}
+.music-wrp p{
+    color:#666b5e;
+    font-size: 24px;
+}
+.form{
+    margin-top:30px;
+}
+aside p{
+    color:#bbb;
+    font-size:24px;
+}
